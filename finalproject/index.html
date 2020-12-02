@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html>
-
 	<head>
 		<meta charset="utf-8" />
 		<title>ZAQ Final Project</title>
 		<link rel="stylesheet" href="css/all.css" />
 		<link rel="stylesheet" href="css/computerScience.css" />
-		<link rel="stylesheet" href="vendors/swiper/swiper.css">
 	</head>
 
 	<body>
@@ -29,34 +27,12 @@
 		</head>
 		
 		<div>
-			<div class="swiper-container" style="margin-bottom: 20px;">
-			  	<div class="swiper-wrapper">
-				    <div class="swiper-slide swiper-1">
-				    	<a href="computerScience.html">
-					    	<img src="img/1.jpg">
-					    	<span class="span-1">Computer science program</span>
-					    	<span class="span-2">Find Out More!</span>
-				    	</a>
-				    </div>
-				    <div class="swiper-slide swiper-2">
-				    	<a href="teachingAssistant.html">
-					    	<img src="img/1-1.jpg">
-					    	<span class="span-1">Teaching Assistant Application</span>
-					    	<span class="span-2">Find Out More!</span>
-				    	</a>
-				    </div>
-				    <div class="swiper-slide swiper-2">
-				    	<a href="gpaCalculate.html">
-					    	<img src="img/1-2.jpg">
-					    	<span class="span-1">GPA calculate</span>
-					    	<span class="span-2">Find Out More!</span>
-				    	</a>
-				    </div>
-			  	</div>
-			  	
-			    <div class="swiper-button-prev swiper-button-white"></div>
-			    <div class="swiper-button-next swiper-button-white"></div>
-			    
+			<div class="swiper-1" style="margin-bottom: 20px;">
+			  	<a href="about.html">
+			    	<img src="img/1.jpg">
+			    	<span class="span-1">About me!</span>
+			    	<span class="span-2">Find Out More!</span>
+		    	</a>
 			</div>
 			
 			<div id="container">
@@ -103,27 +79,8 @@
 		
 		<footer>
 			&copy; website desighed by Zeng Aoqin 2020.11<br />
-			<span style="font-weight: bold;">Version 1.0</span>
+			<span style="font-weight: bold;">Version 1.1</span>
 		</footer>
 		
-		<script type="text/javascript" src="vendors/swiper/swiper.min.js" ></script>
-		<script>
-			var mySwiper = new Swiper('.swiper-container', {
-				autoplay: {
-				    delay: 4000,
-				    disableOnInteraction: false,
-				},
-				
-//				effect : 'fade',
-				
-			    navigation: {
-			      	nextEl: '.swiper-button-next',
-			      	prevEl: '.swiper-button-prev',
-			    },
-				
-				loop : true,
-			})
-			
-		</script>
 	</body>
 </html>
