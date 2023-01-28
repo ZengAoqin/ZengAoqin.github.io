@@ -13,15 +13,15 @@
     });
         
     /*Header Sticky*/
-    $(window).scroll(function() {
-        var scroll = $(window).scrollTop();
+    // $(window).scroll(function() {
+    //     var scroll = $(window).scrollTop();
 
-        if ( scroll >= 100 ) {
-            $("#header").addClass("add-bg")
-        } else {
-            $("#header").removeClass("add-bg")
-        }
-    }); 
+    //     if ( scroll >= 100 ) {
+    //         $("#header").addClass("add-bg")
+    //     } else {
+    //         $("#header").removeClass("add-bg")
+    //     }
+    // }); 
     
     /*==========================================================================================*/
     /*==============================Function Declaration==============================*/
@@ -169,7 +169,7 @@
     }
     
     function thumbSilder(){
-        聽聽// The slider being synced must be initialized first
+        // The slider being synced must be initialized first
         if( $('.thumbCarousel').length ){
             $('#carousel').flexslider({
                 animation: "slide",
