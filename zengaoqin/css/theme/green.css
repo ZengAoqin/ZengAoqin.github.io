@@ -1,14 +1,17 @@
 /*Color Variables*/
 /*Button*/
 .btn-primary {
-  border-left-color: #81db34;
+	/* border-left-color: white;
+	border-right-color: white; */
+	border-color: white;
+  /* border-left-color: #81db34;
   border-right-color: #34d9da;
   background-image: -webkit-linear-gradient(left, #81db34 0%, #34d9da 100%), -webkit-linear-gradient(left, #81db34 0%, #34d9da 100%);
   background-image: -moz-linear-gradient(left, #81db34 0%, #34d9da 100%), -moz-linear-gradient(left, #81db34 0%, #34d9da 100%);
   background-image: -o-linear-gradient(left, #81db34 0%, #34d9da 100%), -o-linear-gradient(left, #81db34 0%, #34d9da 100%);
-  background-image: linear-gradient(to right, #81db34 0%, #34d9da 100%), linear-gradient(to right, #81db34 0%, #34d9da 100%);
+  background-image: linear-gradient(to right, #81db34 0%, #34d9da 100%), linear-gradient(to right, #81db34 0%, #34d9da 100%); */
 }
-.btn-primary span {
+/* .btn-primary span {
   background: -webkit-linear-gradient(330deg, #81db34 0%, #34d9da 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -24,7 +27,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: #fff;
-}
+} */
 
 /*Featured Post Title hover*/
 .featured-post-carousel h5 a:hover, .featured-post-carousel h5 a:focus {

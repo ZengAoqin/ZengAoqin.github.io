@@ -68,7 +68,7 @@ h5 {
 /*Button*/
 .btn-primary {
   background: transparent;
-  border-width: 0 2px;
+  border-width: 2px;
   border-style: solid;
   background-position: 0 0, 0 100%;
   background-repeat: no-repeat;
@@ -2041,7 +2041,7 @@ textarea.form-control {
   font: 13px/70px "Kanit", sans-serif;
   background: #3b5998;
   color: #fff;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 .widget-facebook .widget-facebook-inner a i {
   margin-right: 8px;
